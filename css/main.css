@@ -11,6 +11,78 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+ .mb1-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffa404;
+  z-index: 1030;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .mb1-header {
+    padding-right: 30px;
+  }
+}
+
+@media print {
+  .mb1-header {
+    display: none;
+  }
+}
+
+.mb1-header__logo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  color: #fff;
+  text-align: center;
+  font-family: 'Niconne';
+  padding: 0 15px;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+@media (min-width: 768px) {
+  .mb1-header__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    display: block;
+    width: 230px;
+    background-color: #ffa404;
+  }
+}
+
+.mb1-header__logo:focus, .mb1-header__logo:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.start_btn_mb1{
+  background-color: #ffa404;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  color: white;
+ }
+ .login_btn_mb1{
+  background-color: #ffa404;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  color: white;
+ }
+
+
  .email{
   width: 100%;
   height: 40px;
