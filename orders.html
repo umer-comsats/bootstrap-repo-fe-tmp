@@ -13,7 +13,7 @@
     <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
     <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
     <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
-    <title>SB1</title>
+    <title>Orders</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,64 +43,97 @@
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
       <ul class="app-menu">
-        <li><a class="app-menu__item active" href=""><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
-        <li><a class="app-menu__item" href="orders.html"><i class="app-menu__icon fa fa-shopping-cart"></i><span class="app-menu__label">Orders</span></a></li>
+        <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
+        <li><a class="app-menu__item active" href="orders.html"><i class="app-menu__icon fa fa-shopping-cart"></i><span class="app-menu__label">Orders</span></a></li>
         <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Products</span></a></li>
         <li style="position: absolute;bottom: 0px;"><a class="app-menu__item" href="settings.html"><i class="app-menu__icon fa fa-cog"></i><span class="app-menu__label">Settings</span></a></li>
       </ul>
     </aside>
     <main class="app-content">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="tile">
-            <h3 class="tile-title">Facebook Logins</h3>
-            <div class="row">
-              <div class="col-md-1">
-                <p>Email</p>
-              </div>
-              <div class="col-md-4">
-                <input type="email" name="" id="" class="email" placeholder="Enter facebook email or username">
-              </div>
-              <div class="col-md-1">
-                <p>Email</p>
-              </div>
-              <div class="col-md-4">
-                <input type="password" name="" id=""  class="password" placeholder="Enter Facebook Password">
-              </div>
-              <div class="col-md-2">
-                <button type="submit" class="login_btn">Success</button>
-              </div>
+        <div class="container-fluid">
+            <div class="tile">
+                <div class="row">
+                    <div class="col-md-5">
+                        <button type="submit" class="login_btn_orders">Login/Open<br>Facbook</button>
+                        <br><br>
+                        <button type="submit" class="login_btn_orders">Start Collecting<br>Unfulfilled Orders</button>
+                    </div>
+                    <div class="col-md-7">
+                        <textarea name="" id="" cols="30" rows="10" class="log"></textarea>
+                    </div>
+                </div>
             </div>
-            <div class="row" style="margin-top:20px;">
-              <div class="col-md-2">
-                <p>Google Sheet ID</p>
-              </div>
-              <div class="col-md-10">
-                <input type="email" name="" id="" class="sheetid" placeholder="Set public google sheet id">
-              </div>
-            </div>
-            <div class="row" style="margin-top:20px;">
-              <div class="col-md-2">
-                <p>Log</p>
-              </div>
-              <div class="col-md-10">
-                <textarea name="" id="" cols="30" rows="10" class="log"></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <hr>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-1">
-                <button type="button" class="start_btn"><i class="app-menu__icon fa fa-check-circle"></i>Start</button>
-              </div>
-            </div>
-          </div>
         </div>
+
+        <div class="container-fluid order_container">
+            <div class="tile" style="border-radius: 20px;">
+                <div class="row pro">
+                    <div class="col-md-2">
+                        <img src="images/cap.png" alt="Cap" style="width: 100%;">
+                    </div>
+                    <div class="col-md-5" style="border-right: 2px solid black;">
+                        <h6>Men and Women brandless mesh hat...</h6>
+                        <h6>Variant: Blue</h6>
+                        <ul>
+                            <li>
+                                Processing
+                            </li>
+                        </ul>
+                        <h6>Customer: Merced Gonzales</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <h5>Product Cost: Pending</h5>
+                        <h5>Your Payout: $13.27</h5>
+                        <h5>Profit: Pending</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="tile" style="border-radius: 20px;">
+                <div class="row pro">
+                    <div class="col-md-2">
+                        <img src="images/cap.png" alt="Cap" style="width: 100%;">
+                    </div>
+                    <div class="col-md-5" style="border-right: 2px solid black;">
+                        <h6>Men and Women brandless mesh hat...</h6>
+                        <h6>Variant: Blue</h6>
+                        <ul>
+                            <li>
+                                Processing
+                            </li>
+                        </ul>
+                        <h6>Customer: Merced Gonzales</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <h5>Product Cost: Pending</h5>
+                        <h5>Your Payout: $13.27</h5>
+                        <h5>Profit: Pending</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="tile" style="border-radius: 20px;">
+                <div class="row pro">
+                    <div class="col-md-2">
+                        <img src="images/cap.png" alt="Cap" style="width: 100%;">
+                    </div>
+                    <div class="col-md-5" style="border-right: 2px solid black;">
+                        <h6>Men and Women brandless mesh hat...</h6>
+                        <h6>Variant: Blue</h6>
+                        <ul>
+                            <li>
+                                Processing
+                            </li>
+                        </ul>
+                        <h6>Customer: Merced Gonzales</h6>
+                    </div>
+                    <div class="col-md-5">
+                        <h5>Product Cost: Pending</h5>
+                        <h5>Your Payout: $13.27</h5>
+                        <h5>Profit: Pending</h5>
+                    </div>
+                </div>
+            </div>
+            
         </div>
-      </div>
     </main>
     <!-- Essential javascripts for application to work-->
     <script src="js/jquery-3.3.1.min.js"></script>
